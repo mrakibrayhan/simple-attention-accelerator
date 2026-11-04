@@ -1,8 +1,8 @@
 # Simple Attention Architecture: a Fixed-Point Scaled Dot-Product Attention Accelerator in Verilog
 
-**Author:** Md. Rakib Rayhan, Dept. of ECE, North South University
-**Task:** ARCH Lab (UMass Amherst) – *Simple Attention Architecture*
-**Simulator:** Icarus Verilog 12 (lint-clean in Verilator with `-Wno-WIDTH`)
+- **Author:** Md. Rakib Rayhan, Dept. of ECE, North South University
+- **Task:** ARCH Lab (UMass Amherst) – *Simple Attention Architecture*
+- **Simulator:** Icarus Verilog 12 (lint-clean in Verilator with `-Wno-WIDTH`)
 
 ```
 Attention(Q, K, V) = softmax( Q·Kᵀ / √dₖ ) · V ,   Q = X·W_Q,  K = X·W_K,  V = X·W_V
